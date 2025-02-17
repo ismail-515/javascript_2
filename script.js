@@ -7,7 +7,7 @@ const guess = document.querySelector(".guess")
 const dd = document.getElementsByTagName("span")[0]
 let score=20
 const body = document.body
-const secretNumber = Math.floor(Math.random() * 20)
+const secretNumber = Math.floor(Math.random() * 20)+1
 btncheck.addEventListener("click", () => {
     
     do {
